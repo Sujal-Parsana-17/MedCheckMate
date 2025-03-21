@@ -20,7 +20,7 @@ const Navbar = ({ activeSection, setActiveSection, theme, toggleTheme }) => {
             onClick={() => setActiveSection('add')} 
             className={activeSection === 'add' ? 'active' : ''}
           >
-            Add Medicine
+            Test Medicine
           </button>
           <button
             onClick={() => setActiveSection('about')} 
